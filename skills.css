@@ -1,5 +1,5 @@
 body {
-	background-image: url(laptop.jpg);
+	background-image: linear-gradient(to right, rgba(127, 252, 255, 0), rgba(127, 252, 255, 1));
 	background-size: cover;
 }
 
@@ -25,6 +25,15 @@ h2 {
 }
 
 h3 {
+	text-align: justify;
+	font-family: Papyrus, Geneva, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+
+p {
 	text-align: justify;
 	font-family: Papyrus, Geneva, sans-serif;
 	font-style: italic;
