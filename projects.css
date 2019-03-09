@@ -1,5 +1,6 @@
 body {
-	background-image: linear-gradient(to right, #ffffff, #faf7fe, #f7effc, #f6e7f9, #f6def4);
+	background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+	background-size: cover;
 }
 
 nav {
@@ -13,14 +14,9 @@ nav {
 }
 
 hr {
-  	border:none;
-  	height: 20px;
- 	width: 100%;
-	height: 50px;
-	margin-top: 0;
-	border-bottom: 1px solid #caf7f2;
-	box-shadow: 0 20px 20px -20px #caf7f2;
-  	margin: -50px auto 10px; 
+  	border: 0;
+  	height: 0;
+  	box-shadow: 0 0 10px 1px black;
 }
 
 h2 {
