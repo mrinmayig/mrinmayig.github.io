@@ -54,5 +54,7 @@ section {
 	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
 	font-style: italic;
 	font-weight: bold;
+	max-width: 50%;
+	margin: auto;
 }
 
