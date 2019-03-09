@@ -4,6 +4,8 @@ img {
   margin-right: auto;
   width: 20%;
   height: 30%;
+  box-shadow:  0 0 8px 8px rgb(163, 156, 161, 0.6);
+  border-radius: 50%;
 }
 
 body {
