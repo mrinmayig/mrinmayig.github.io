@@ -6,7 +6,10 @@ img {
   height: 30%;
   box-shadow:  0 0 8px 8px rgb(195, 255, 98, 0.5);
   border-radius: 50%;
+  transition: all 0.8s ease-in-out;
 }
+
+img:hover { transform: scale(1.1); }
 
 body {
 	background-image: white;
