@@ -20,7 +20,7 @@ nav a {
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
-  	border-radius: 50px 50px 50px 50px;
+  	border-radius: 0px 50px 0px 50px;
   	box-shadow: 3px 3px 5px 4px #ccc;
 }
 
@@ -63,4 +63,11 @@ div, img {
 
 img {
 	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+div a {
+	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+	font-weight: bold;
+	font-style: italic;
+
 }
