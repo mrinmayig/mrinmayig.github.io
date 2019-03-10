@@ -74,4 +74,5 @@ img:hover { transform: scale(1.1); }
 div a {
 	font-family: Verdana, Helvetica, Arial, Sans-Serif;
 	font-weight: bold;
+	text-align: justify;
 }
