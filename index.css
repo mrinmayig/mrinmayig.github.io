@@ -4,7 +4,7 @@ img {
   margin-right: auto;
   width: 20%;
   height: 30%;
-  box-shadow:  0 0 8px 8px rgb(195, 255, 98, 0.5);
+  box-shadow:  0 0 6px 6px rgb(0, 0, 0, 0.2);
   border-radius: 50%;
   transition: all 0.8s ease-in-out;
 }
@@ -19,22 +19,20 @@ body {
 h2 {
 	text-align: center;
 	border: 5px;
-	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
 	font-weight: bold;
 	text-shadow: 1px 1px 2px black;
 }
 
 h3 {
 	text-align: center;
-	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-	font-style: italic;
-	font-weight: bold;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
+	font-weight: normal;
 }
 
 nav {
 	text-align: center;
-	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-	font-weight: bold;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
 	border: 10px;
 	word-spacing: 30px;
 }
@@ -56,9 +54,7 @@ a:hover, a:active {
 
 section {
 	text-align: center;
-	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-	font-style: italic;
-	font-weight: bold;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
 	max-width: 50%;
 	margin: auto;
 }

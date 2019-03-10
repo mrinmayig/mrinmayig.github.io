@@ -5,8 +5,7 @@ body {
 
 nav {
 	text-align: justify;
-	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-	font-weight: bold;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
 	border: 10px;
 	word-spacing: 70px;
 	display: inline;
@@ -27,6 +26,11 @@ a:hover, a:active {
   background-color: hotpink;
 }
 
+a.selected {
+  color: white;
+  background: #caf7f2;
+}
+
 hr {
   	border: 0;
   	height: 0;
@@ -36,7 +40,7 @@ hr {
 h2 {
 	text-align: center;
 	border: 10px;
-	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
 	font-weight: bold;
 	text-shadow: 1px 1px 2px black;
 	text-decoration: underline;
@@ -45,8 +49,7 @@ h2 {
 
 h3, h4, p, li {
 	text-align: center;
-	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-	font-style: italic;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
 	font-size: 20px;
 }
 
