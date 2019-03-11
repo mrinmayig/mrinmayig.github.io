@@ -2,59 +2,126 @@
 <html>
 <head>
 	<title>Projects</title>
-	<link rel="stylesheet" type="text/css" href="projects.css">
+	<link rel="stylesheet" type="text/css" href="flexcard.css">
 </head>
 <body>
 	 <nav>
           <a href="index.html">Home</a>
           <a href="experience.html">Experience</a>
           <a href="projects.html" class="selected">Projects</a>
-		  <a href="education.html">Education</a> 
-		  <a href="skills.html">Skills</a>
-		  <a href="contact.html">Contact</a>
+		      <a href="education.html">Education</a> 
+		      <a href="skills.html">Skills</a>
+		      <a href="contact.html">Contact</a>
      </nav>
      <hr>
 	<h2>Projects</h2><br>
-	<h2>Twitter U.S. Airline Sentiment Analysis</h2>
-	<p>Task: Sentiment analysis and classification of tweets using Machine Learning<br>
+		<ul class="cards">
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__content">
+        <div class="card__title">Twitter U.S. Airline Sentiment Analysis</div>
+        <p class="card__text">Task: Sentiment analysis and classification of tweets using Machine Learning<br>
 		Dataset: Twitter's real webscraped data obtained from Kaggle<br>
 		Tags: Python, Word Cloud, Data Visualization, Random Forest Classifier, Ensemble Methods,
 		Feature Extraction, TF-IDF, Model Training and Evaluation, Real-World Data, Natural Language Processing<br>
-		Tools: Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, Re, NLTK, Word Cloud <br>
-		</p>
-	<br>
-
-	<h2>Streaming and Information Retrieval</h2>
-		<p>Task: Streaming data from twitter using Twitter’s Streaming API and extract tutorial links relevant to 3 major programming languages.<br>
+		Tools: Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, Re, NLTK, Word Cloud</p>
+        <button class="btn btn--block card__btn"><a href="https://github.com/mrinmayig/twitter-airline-sentiment">View on Github</a></button>
+      </div>
+    </div>
+  </li>
+  <br>
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__content">
+        <div class="card__title">Streaming and Information Retrieval</div>
+        <p class="card__text">Task: Streaming data from twitter using Twitter’s Streaming API and extract tutorial links relevant to 3 major programming languages<br>
 		Dataset: Streamed real tweets by using a Python script<br>
 		Tags: Text-Mining, Tweepy, Twitter's Streaming API, Information Retrieval, Data Streaming and Extraction, Python<br>
-		Tools: JSON, Pandas, Re<br>
-		</p>
-	<br>
-
-	<h2>Yelp Restaurant Review Analysis and Classification</h2>
-		<p>Task: Sentiment analysis of reviews posted by users and their classification using Machine Learning.<br>
+		Tools: JSON, Pandas, Re</p>
+        <button class="btn btn--block card__btn"><a href="https://github.com/mrinmayig/twitter-streaming-inforetrieval">View on Github</a></button>
+      </div>
+    </div>
+  </li>
+  <br>
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__content">
+        <div class="card__title">Yelp Restaurant Review Analysis and Classification</div>
+        <p class="card__text">Task: Sentiment analysis of reviews posted by users and their classification using Machine Learning<br>
 		Dataset: Yelp Restaurant Reviews Dataset<br>
 		Tags: Python, Word Cloud, Data Exploration and Visualization, Logistic Regression, Feature Extraction, TF-IDF, Machine Learning,
 		Model Training and Evaluation, Testing, Natural Language Processing, Imbalanced Classes<br>
-		Tools: Pandas, NumPy, NLTK, Scikit-Learn, Word Cloud, Re, Seaborn, Matplotlib, TfidfVectorizer <br>
-		</p>
-	<br>
-	
-	<h2>Multi-Class Image Classification using Deep Learning</h2>
-		<p>Task: Multi-Class classification of color images using a Convolutional Neural Network (CNN).<br>
-		Dataset: CIFAR-10 <br>
+		Tools: Pandas, NumPy, NLTK, Scikit-Learn, Word Cloud, Re, Seaborn, Matplotlib, TfidfVectorizer</p>
+        <button class="btn btn--block card__btn"><a href="https://github.com/mrinmayig/yelp-review-classification">View on Github</a></button>
+      </div>
+    </div>
+  </li>
+  <br>
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__content">
+        <div class="card__title">Multi-Class Image Classification using Deep Learning</div>
+        <p class="card__text">Task: Multi-Class classification of color images using a Convolutional Neural Network (CNN)<br>
+		Dataset: CIFAR-10<br> 
 		Tags: Supervised Learning, Optimization, Adam, Dropout, Regularization, ReLU, Softmax, Python, Training, Testing<br>
-		Tools: Keras, Numpy, Matplotlib<br>
-		</p>
-	<br>
-
-	<h2>Housing Prices Estimation</h2>
-		<p>Task: Estimate housing prices using Boston Housing Dataset.<br>
-		Dataset: Boston Housing Census <br>
+		Tools: Keras, Numpy, Matplotlib</p>
+        <button class="btn btn--block card__btn"><a href="https://github.com/mrinmayig/CNNClassifier">View on Github</a></button>
+      </div>
+    </div>
+  </li>
+  <br>
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__content">
+        <div class="card__title">Housing Prices Estimation</div>
+        <p class="card__text">Task: Estimate housing prices using Boston Housing Dataset<br>
+		Dataset: Boston Housing Census<br> 
 		Tags: Regression, Principal Component Analysis, Data Visualization, Linear Regression, Feature Scaling, Cross-Validation, Training, Testing, Mean Squared Error, R-Squared Metric, Python<br>
-		Tools: NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn<br>
-		</p>
-	
+		Tools: NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn</p>
+        <button class="btn btn--block card__btn"><a href="https://github.com/mrinmayig/housing-price-prediction">View on Github</a></button>
+      </div>
+    </div>
+  </li>
+<!--
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__content">
+        <div class="card__title">Housing Prices Estimation</div>
+        <p class="card__text">Task: Estimate housing prices using Boston Housing Dataset<br>
+		Dataset: Boston Housing Census<br> 
+		Tags: Regression, Principal Component Analysis, Data Visualization, Linear Regression, Feature Scaling, Cross-Validation, Training, Testing, Mean Squared Error, R-Squared Metric, Python<br>
+		Tools: NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn</p>
+        <button class="btn btn--block card__btn">View on Github</button>
+      </div>
+    </div>
+  </li>
+
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__content">
+        <div class="card__title">Housing Prices Estimation</div>
+        <p class="card__text">Task: Estimate housing prices using Boston Housing Dataset.
+		Dataset: Boston Housing Census 
+		Tags: Regression, Principal Component Analysis, Data Visualization, Linear Regression, Feature Scaling, Cross-Validation, Training, Testing, Mean Squared Error, R-Squared Metric, Python
+		Tools: NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn</p>
+        <button class="btn btn--block card__btn">View on Github</button>
+      </div>
+    </div>
+  </li>
+
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__content">
+        <div class="card__title">Housing Prices Estimation</div>
+        <p class="card__text">Task: Estimate housing prices using Boston Housing Dataset.
+		Dataset: Boston Housing Census 
+		Tags: Regression, Principal Component Analysis, Data Visualization, Linear Regression, Feature Scaling, Cross-Validation, Training, Testing, Mean Squared Error, R-Squared Metric, Python
+		Tools: NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn</p>
+        <button class="btn btn--block card__btn">View on Github</button>
+      </div>
+    </div>
+  </li>
+-->
+</ul>
 </body>
 </html>
