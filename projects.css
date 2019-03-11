@@ -145,4 +145,6 @@ button:hover{
 button a{
   color: white;
   text-decoration: none;
+  display: block;
+  text-align: center;
 }
