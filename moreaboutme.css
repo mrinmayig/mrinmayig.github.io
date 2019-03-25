@@ -1,0 +1,56 @@
+body {
+	background-image: white;
+	background-size: cover;
+}
+
+nav {
+	text-align: justify;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
+	border: 10px;
+	word-spacing: 70px;
+	display: inline;
+}
+
+a {
+	background-color: black;
+  	color: white;
+  	padding: 10px 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	border-radius: 0px 50px 0px 50px;
+  	box-shadow: 3px 3px 5px 4px #ccc;
+}
+
+a:hover, a:active {
+  background-color: hotpink;
+}
+
+a.selected {
+  color: white;
+  background: #caf7f2;
+}
+
+hr {
+  	border: 0;
+  	height: 0;
+  	box-shadow: 0 0 10px 1px black;
+}
+
+h2 {
+	text-align: center;
+	border: 10px;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black;
+	text-decoration: underline;
+	text-decoration-color: #caf7f2;
+}
+
+p {
+	text-align: center;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
+	font-size: 20px;
+	max-width: 80%;
+	margin: auto;
+}
