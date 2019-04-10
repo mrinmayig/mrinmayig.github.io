@@ -1,15 +1,29 @@
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-  height: 30%;
-  box-shadow:  0px 0px 5px 0px rgb(0, 0, 0, 0.2);
-  border-radius: 50%;
-  transition: all 0.8s ease-in-out;
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-img:hover { transform: scale(1.1); }
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: black;
+  color: white;
+  text-shadow: 1px 1px 0.5px gray;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: white;
+  text-align: justify-all;
+
+}
 
 hr {
   	border: 0;
@@ -18,17 +32,12 @@ hr {
   	width: 50%;
 }
 
-body {
-	background-color: white;
-	background-size: cover;
-}
-
 h2 {
 	text-align: center;
 	border: 5px;
 	font-family: Verdana, Helvetica, Arial, Sans-Serif;
 	font-weight: bold;
-	text-shadow: 1px 1px 2px black;
+	text-shadow: 1px 1px 0.5px gray;
 }
 
 h3 {
@@ -64,7 +73,19 @@ a:hover, a:active {
 section {
 	text-align: center;
 	font-family: Verdana, Helvetica, Arial, Sans-Serif;
-	max-width: 50%;
+	max-width: 85%;
 	margin: auto;
 }
+
+.centered img {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  width: 55%;
+  height: 55%;
+  box-shadow:  0px 0px 5px 0px rgb(220, 220, 220, 0.8);
+  transition: all 0.8s ease-in-out;
+}
+
+.centered img:hover { transform: scale(1.1); }
 
