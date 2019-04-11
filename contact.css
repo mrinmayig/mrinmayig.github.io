@@ -35,7 +35,8 @@ a.selected {
 hr {
   	border: 0;
   	height: 0;
-  	box-shadow: 0 0 10px 1px black;
+  	box-shadow: 0 0 5px 0.8px black;
+  	margin-top: 25px;
 }
 
 h2 {
@@ -51,6 +52,10 @@ h2 {
 h3, p {
 	text-align: center;
 	font-family: Verdana, Helvetica, Arial, Sans-Serif;
+}
+
+p{
+	color: #515151;
 }
 
 div, img {

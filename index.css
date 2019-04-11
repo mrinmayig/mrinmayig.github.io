@@ -22,6 +22,7 @@
   right: 0;
   background-color: white;
   text-align: justify-all;
+  justify-content: center;
 
 }
 
@@ -29,7 +30,7 @@ hr {
   	border: 0;
   	height: 0;
   	box-shadow: 0 0 5px 0.8px black;
-  	width: 50%;
+  	width: 90%;
 }
 
 h2 {
@@ -73,8 +74,12 @@ a:hover, a:active {
 section {
 	text-align: center;
 	font-family: Verdana, Helvetica, Arial, Sans-Serif;
-	max-width: 85%;
+	max-width: 55%;
 	margin: auto;
+  color: black;
+}
+p{
+  color: #515151;
 }
 
 .centered img {
