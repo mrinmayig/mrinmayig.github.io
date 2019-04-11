@@ -59,3 +59,7 @@ p {
 	margin: auto;
 	color: #515151;
 }
+
+.container {
+	display: inline-flex;
+}
