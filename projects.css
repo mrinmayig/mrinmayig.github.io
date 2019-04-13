@@ -27,7 +27,7 @@ nav a:hover, a:active {
 }
 
 nav a.selected {
-  color: white;
+  color: black;
   background: #caf7f2;
 }
 

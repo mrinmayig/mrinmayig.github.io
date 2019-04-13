@@ -28,7 +28,7 @@ a:hover, a:active {
 }
 
 a.selected {
-  color: white;
+  color: black;
   background: #caf7f2;
 }
 
