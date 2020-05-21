@@ -37,7 +37,7 @@ h2 {
 	text-align: center;
 	border: 5px;
 	font-family: Verdana, Helvetica, Arial, Sans-Serif;
-	font-weight: bold;
+	font-weight: normal;
 	text-shadow: 1px 1px 0.5px gray;
 }
 
@@ -74,9 +74,10 @@ a:hover, a:active {
 section {
 	text-align: center;
 	font-family: Verdana, Helvetica, Arial, Sans-Serif;
-	max-width: 55%;
+	max-width: 60%;
 	margin: auto;
   color: black;
+  font-size: auto;
 }
 
 p{
